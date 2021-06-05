@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*navbar start*/
+#navbar_contant{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+#navbar_contant .logo{
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    padding-right: 100px;
+}
+#navbar_contant .logo a{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+#navbar_contant .menu{
+    width: 70%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#navbar_contant .menu ul{
+    margin-left: 215px;
+}
+#navbar_contant .menu ul li{
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+#navbar_contant .menu ul li a{
+    display:block;
+    font-size: 16px;
+    line-height: 70px;
+    color: #fff;
+}
+/*navbar end*/
+
+/*banner start*/
+#banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+#banner .banner_content{
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+#banner .banner_content h2{
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+#banner .banner_content h1{
+    font-size: 90px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+#banner .banner_content p{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#banner .banner_content a{
+    background: #f34236;
+    color: #ffffff;
+    border-color: #f34236;
+    font-size: 13px;
+    padding: 12px 28px;
+    line-height: 25px;
+    margin-top: 39px;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: all linear .55s;
+    -webkit-transition: all linear .55s;
+    -moz-transition: all linear .55s;
+    -ms-transition: all linear .55s;
+    -o-transition: all linear .55s;
+}
+#banner .banner_content a:hover{
+    background: #111111;
+}
+/*banner end*/
