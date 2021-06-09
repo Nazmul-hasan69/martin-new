@@ -107,8 +107,8 @@ to{
 .stickyNav{
     background:white;
     box-shadow: rgb(58 78 95 / 20%) 0 10px 16px, rgb(58 78 95 / 5%) 0 -5px 16px;
-    animation: stickyNav .7s;
-    -webkit-animation: stickyNav .7s;
+    animation: stickyNav .5s;
+    -webkit-animation: stickyNav .5s;
 }
   
 @keyframes stickyNav {
