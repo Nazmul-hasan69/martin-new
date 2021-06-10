@@ -728,4 +728,56 @@ to{
     margin-bottom: 12px;
 }
 /*contact section end*/
-  
+
+/*footer top start*/
+footer{
+    background: #212121;
+    color: #999;
+}
+footer .footer_text{
+    text-align: center;
+    padding: 48px 0 60px 0;
+}
+footer .footer_top{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+footer .footer_text .footer_logo{ 
+    color: #ffffff;
+    padding-bottom: 25px;
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 43px;
+}
+footer .footer_text .footer_link a i{
+    width: 40px;
+    height: 40px;
+    color: #999;
+    background-color: #111;
+    border: 1px solid transparent;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+footer .footer_text .footer_link a i:hover{
+    background: #212121;
+    border-color: #111;
+    color: #fff;
+}
+footer .footer_bottum {
+    text-align: center;
+    padding: 20px 0;
+}
+footer .footer_bottum p{
+    font-size: 14px;
+    font-weight: 600;
+}
+/*footer top End*/
