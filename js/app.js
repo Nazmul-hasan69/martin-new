@@ -42,4 +42,11 @@ $(function () {
     $(window).on('load', function () {
        $('#preloader_container').fadeOut(1000)
     })
+
+    //co-founder slider
+    $('#co-founder .container').slick({
+      arrows: false,
+      dots: true,
+      dotsClass: "slider_dots",
+   });
 })
