@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"rel="stylesheet">
     
+    <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/slick.min.css">
     <link rel="stylesheet" href="font/flaticon.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -225,21 +226,21 @@
             <div class="portfolio_content">
                 <div class="portfolio_menu">
                     <ul>
-                        <li>All</li>
-                        <li>Branding</li>
-                        <li>Photoshop</li>
-                        <li>Fashion</li>
-                        <li>Product</li>
+                        <li data-filt="all">All</li>
+                        <li data-filt="Branding">Branding</li>
+                        <li data-filt="Photoshop">Photoshop</li>
+                        <li data-filt="Fashion">Fashion</li>
+                        <li data-filt="Product">Product</li>
                     </ul>
                 </div>
-                <div class="portfolio_item">
+                <div class="filter-container">
                     <div class="row">
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="all">
                                 <img src="images/portfolio-1.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-1.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -248,11 +249,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="Branding, Photoshop">
                                 <img src="images/portfolio-2.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-2.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -261,11 +262,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="Fashion, Photoshop">
                                 <img src="images/portfolio-3.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-3.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -274,11 +275,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="Product, Photoshop">
                                 <img src="images/portfolio-4.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-4.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -287,11 +288,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="Product, all">
                                 <img src="images/portfolio-5.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-5.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -300,11 +301,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="1">
                                 <img src="images/portfolio-6.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-6.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -313,11 +314,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="1">
                                 <img src="images/portfolio-7.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery" href="images/portfolio-7.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -326,11 +327,11 @@
                             </div>
                         </div>
                         <div class="portfolio_element">
-                            <div class="portfolio_img">
+                            <div class="filtr-item" data-category="1">
                                 <img src="images/portfolio-8.jpg" alt="image" />
                             </div>
                             <div class="portfolio_info">
-                                <a href="#">
+                                <a class="img_link" data-gall="portfolio_gallery"href="images/portfolio-8.jpg">
                                     <i></i>
                                 </a>
                                 <h5>
@@ -546,7 +547,9 @@
     <!--footer top end-->
 
     <noscript>You need to enable JavaScript to run this site.</noscript>
-    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/filterizr.min.js"></script>
+    <script src="js/venobox.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/app.js"></script>
 </body>

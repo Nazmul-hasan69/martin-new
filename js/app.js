@@ -35,7 +35,6 @@ $(function () {
              scrollTop: $(hash).offset().top - 58
           },1000)
        }
-       console.log($(hash).offset().top)
     })
  
     //Preloader
@@ -49,4 +48,14 @@ $(function () {
       dots: true,
       dotsClass: "slider_dots",
    });
+   //galleary section
+   $('.img_link').venobox({
+      framewidth:'600px',
+      frameheight:'600px',
+      border:'10px',
+      share: ['facebook', 'twitter', 'download'],
+      spinner: 'three-bounce',
+   });
+   //filter section
+   $('.filter-container').filterizr();
 })

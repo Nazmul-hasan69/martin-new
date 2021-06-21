@@ -493,7 +493,7 @@ h2 span {
     box-shadow: 0 10px 16px rgba(58, 78, 95, 0.2), 0 -5px 16px rgba(58, 78, 95, 0.05);
     position: relative;
 }
-#portfolio .portfolio_element .portfolio_img img{
+#portfolio .portfolio_element .filtr-item img{
     width: 100%;
     display: block;
 }
